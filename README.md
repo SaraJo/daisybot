@@ -14,15 +14,15 @@ No, but you do need one to connect it to the internet. However, there is Daisybo
 
 ##What do I need in order to make a Daisybot?
 
-1 RFDuino (http://www.rfduino.com/product/rfd22102-rfduino-dip/)
-1 RFDuino USB Shield (to upload code to your RFDuino) (http://www.rfduino.com/product/rfd22121-usb-shield-for-rfduino/)
-1 NeoPixel Ring (http://www.adafruit.com/products/1643)
-1 Daisybot Kit (purchased here, or make on your own with a 3d printer and laser cutter. look in the design_files folder for schematics)
-1 LiPo battery (https://www.sparkfun.com/products/10718)
-1 regulator (https://www.sparkfun.com/products/10967)
-Soldering Iron/Solder
-Jumper Wires
-Either ribbon or a chain to put the necklace on
+*1 [RFDuino](http://www.rfduino.com/product/rfd22102-rfduino-dip/)
+*1 [RFDuino USB Shield](http://www.rfduino.com/product/rfd22121-usb-shield-for-rfduino/) This will help you upload code to your RFDuino. )
+*1 [NeoPixel Ring](http://www.adafruit.com/products/1643)
+*1 Daisybot Kit)
+*1 [LiPo battery](https://www.sparkfun.com/products/10718)
+*1 [regulator](https://www.sparkfun.com/products/10967)
+* Soldering Iron/Solder
+* Jumper Wires
+* Either ribbon or a chain to put the necklace on
 
 ##Let's get started!!!
 
