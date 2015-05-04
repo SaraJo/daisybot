@@ -1,0 +1,73 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "framework": {
+                "parents": {
+                    "CoreBluetooth.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "CoreGraphics.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "config.xml": {
+                "parents": {
+                    "/widget": [
+                        {
+                            "xml": "<feature name=\"RFduino\"><param name=\"ios-package\" onload=\"true\" value=\"MEGRFduino\" /></feature>",
+                            "count": 1
+                        }
+                    ],
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVInAppBrowser\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://oauth.io\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"BackgroundJS\"><param name=\"ios-package\" value=\"BackgroundJS\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.megster.cordova.rfduino": {
+            "PACKAGE_NAME": "com.megster.rfduino.temp"
+        },
+        "com.phonegap.plugins.oauthio": {
+            "PACKAGE_NAME": "com.megster.rfduino.temp"
+        },
+        "com.badrit.BackgroundJS": {
+            "PACKAGE_NAME": "com.megster.rfduino.temp"
+        }
+    },
+    "dependent_plugins": {
+        "org.apache.cordova.inappbrowser": {
+            "PACKAGE_NAME": "com.megster.rfduino.temp"
+        },
+        "org.apache.cordova.device": {
+            "PACKAGE_NAME": "com.megster.rfduino.temp"
+        }
+    }
+}
